@@ -1,0 +1,26 @@
+{
+    "name": "classic-asp-html",
+    "displayName": "Classic ASP w/HTML",
+    "description": "Classic ASP Language Support from tmBundle (with html support)",
+    "version": "0.0.1",
+    "publisher": "jtjoo",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "asp",
+            "aliases": ["ASP", "asp"],
+            "extensions": [".asa",".asp"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "asp",
+            "scopeName": "text.html.asp",
+            "path": "./syntaxes/asp.html.tmLanguage.json"
+        }]
+    }
+}
