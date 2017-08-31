@@ -2,25 +2,53 @@
     "name": "classic-asp-html",
     "displayName": "Classic ASP w/HTML",
     "description": "Classic ASP Language Support from tmBundle (with html support)",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "jtjoo",
     "engines": {
         "vscode": "^1.5.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jtjoo/vscode-classic-asp-html"
+    },
+    "bugs": "https://github.com/jtjoo/vscode-classic-asp-html/issues",
+    "activationEvents": [
+        "onLanguage:asp"
+    ],
+    "main": "./out/src/extension",
     "categories": [
         "Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "asp",
-            "aliases": ["ASP", "asp"],
-            "extensions": [".asa",".asp"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "asp",
-            "scopeName": "text.html.asp",
-            "path": "./syntaxes/asp.html.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "asp",
+                "aliases": [
+                    "ASP",
+                    "asp"
+                ],
+                "extensions": [
+                    ".asa",
+                    ".asp"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "asp",
+                "scopeName": "text.html.asp",
+                "path": "./syntaxes/asp.html.tmLanguage.json"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+        "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "typescript": "^1.8.5",
+        "vscode": "^0.11.0"
     }
 }
