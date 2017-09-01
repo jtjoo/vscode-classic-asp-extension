@@ -33,8 +33,7 @@
                     "include": "#sources_asp"
                 }
             ]
-        }
-        ,
+        },
         {
             "include": "text.html.basic"
         }
