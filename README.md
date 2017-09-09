@@ -21,6 +21,12 @@ Let me know if you having trouble with using this extension.
 
 ## Release Notes
 
+### 0.0.2
+
+- Added some ASP snippets from [TMBundle](https://github.com/textmate/asp.tmbundle).
+- Fixed some bugs that HTML snippets doesn't work. [Issue#3 : Interferes with Auto Close Tag Extension](https://github.com/jtjoo/vscode-classic-asp-html/issues/3)
+- Excluded `<%-- --%>` [Issue#2](https://github.com/jtjoo/vscode-classic-asp-html/issues/2)
+
 ### 0.0.1
 
 Wrote new extension fixing HTML problem from [ilich's vscode-classic-asp](https://github.com/ilich/vscode-classic-asp)

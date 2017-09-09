@@ -6,7 +6,7 @@
     "version": "0.0.2",
     "publisher": "jtjoo",
     "engines": {
-        "vscode": "^1.4.0"
+        "vscode": "^1.0.0"
     },
     "repository": {
         "type": "git",
@@ -17,10 +17,6 @@
         "Languages",
         "Snippets"
     ],
-    "files.associations": {
-        "*.asp": "asp",
-        "global.asa": "asp"
-    },
     "contributes": {
         "languages": [
             {
@@ -32,8 +28,7 @@
                 "extensions": [
                     ".asa",
                     ".asp"
-                ],
-                "configuration": "./language-configuration.json"
+                ]
             }
         ],
         "grammars": [
@@ -51,7 +46,6 @@
         "snippets": [
             {
                 "language": "asp",
-                "scopeName": "text.html.asp",
                 "path": "./snippets/asp.json"
             }
         ]
@@ -61,7 +55,7 @@
         "onLanguage:html",
         "onLanguage:javascript"
     ],
-    "main": "./out/src/extension",
+    "main": "./out/extension",
     "scripts": {
         "vscode:prepublish": "tsc -p ./",
         "compile": "tsc -watch -p ./",
