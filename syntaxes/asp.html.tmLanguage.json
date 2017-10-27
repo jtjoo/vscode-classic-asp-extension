@@ -5,38 +5,47 @@
     "fileTypes": [
         "asp"
     ],
-    "patterns": [
-        {
-            "begin": "<%=?",
-            "beginCaptures": [
+    "foldingStartMarker": "(?i)^\\s*(Public|Private)?\\s*(Class|Function|Sub|Property)\\s*([a-zA-Z_]\\w*)\\s*(\\(.*\\)\\s*)?$",
+    "foldingStopMarker": "(?i)^\\s*End (Class|Function|Sub|Property)\\s*$",
+    "injections" : {
+        "text.html.asp" : {
+            "patterns" : [
                 {
-                "name": "punctuation.section.embedded.begin.asp"
-                }
-            ],
-            "end": "%>",
-            "endCaptures": [{
-                "name": "punctuation.section.embedded.end.asp"
-            }],
-            "name": "source.asp.embedded.html",
-            "patterns": [
-                {
-                    "captures": [
+                    "patterns": [
                         {
-                        "name": "punctuation.definition.comment.asp"
+                            "begin": "<(%|=)?",
+                            "beginCaptures": {
+                                "0": {
+                                    "name": "punctuation.section.embedded.begin.asp"
+                                }
+                            },
+                            "contentName": "source.asp",
+                            "end": "(%)>",
+                            "endCaptures": {
+                                "0": {
+                                    "name": "punctuation.section.embedded.end.asp"
+                                },
+                                "1": {
+                                    "name": "source.asp"
+                                }
+                            },
+                            "name": "meta.embedded.block.asp",
+                            "patterns": [
+                                {
+                                    "include": "#sources_asp"
+                                }
+                            ]
                         }
-                    ],
-                    "match": "(').*?(?=%>)",
-                    "name": "comment.line.apostrophe.asp"
-                },
-                {
-                    "include": "#sources_asp"
+                    ]
                 }
             ]
-        },
-        {
-            "include": "text.html.basic"
-        }
-    ],
+        } 
+    },
+	"patterns": [
+		{
+			"include": "text.html.basic"
+		}
+	],
     "repository": {
         "sources_asp": {
             "patterns": [
