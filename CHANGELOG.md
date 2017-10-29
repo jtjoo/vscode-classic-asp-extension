@@ -1,5 +1,9 @@
 # Change Log
 
+## **0.0.3** released on 29th October 2017.
+
+- **Change:** Added Icon
+
 ## **0.0.2** released on 29th October 2017.
 
 - **Change:** Added snippet converted from [TextMate's ASP bundle](https://github.com/textmate/asp.tmbundle)
