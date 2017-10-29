@@ -28,15 +28,20 @@ Let me know if you having trouble with using this extension.
 
 ## Release Notes
 
-<<<<<<< HEAD
-=======
+### 0.0.4
+
+Modified Icon
+
+### 0.0.3
+
+Added Icon
+
 ### 0.0.2
 
 Added snippet converted from [TextMate's ASP bundle](https://github.com/textmate/asp.tmbundle)
 
 Fixed HTML snippet to work on ASP file.
 
->>>>>>> develop
 ### 0.0.1
 
 Wrote new extension fixing HTML problem from [ilich's vscode-classic-asp](https://github.com/ilich/vscode-classic-asp)

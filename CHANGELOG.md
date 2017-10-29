@@ -1,5 +1,9 @@
 # Change Log
 
+## **0.0.4** released on 29th October 2017.
+
+- **Change:** Modified Icon
+
 ## **0.0.3** released on 29th October 2017.
 
 - **Change:** Added Icon
