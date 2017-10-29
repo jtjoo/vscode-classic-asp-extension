@@ -2,6 +2,7 @@
     "name": "classic-asp-html",
     "scopeName": "text.html.asp",
     "displayName": "Classic ASP w/HTML",
+    "icon": "images/classic_asp.png",
     "description": "Classic ASP Language Support from tmBundle (with html support)",
     "version": "0.0.2",
     "publisher": "jtjoo",
