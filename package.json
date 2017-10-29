@@ -37,10 +37,12 @@
                 "scopeName": "text.html.asp",
                 "path": "./syntaxes/asp.html.tmLanguage.json",
 				"embeddedLanguages": {
+                    "text.html.asp": "asp",
 					"text.html": "html",
 					"source.sql": "sql",
 					"text.xml": "xml",
 					"source.js": "javascript",
+					"source.vbs": "vbscript",
 					"source.json": "json",
 					"source.css": "css"
 				}
