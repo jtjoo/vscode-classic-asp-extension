@@ -1,7 +1,12 @@
 {
+    "information_for_contributors": [
+		"This file has been converted from https://github.com/textmate/asp.tmbundle",
+		"If you want to provide a fix or improvement, please create a pull request against the original repository.",
+		"Once accepted there, I am happy to receive an update request."
+    ],
     "name": "ASP-HTML",
     "scopeName": "text.html.asp",
-    "comment": "Classic ASP",
+    "comment": "Classic ASP with HTML",
     "fileTypes": [
         "asp"
     ],

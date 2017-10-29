@@ -35,7 +35,15 @@
             {
                 "language": "asp",
                 "scopeName": "text.html.asp",
-                "path": "./syntaxes/asp.html.tmLanguage.json"
+                "path": "./syntaxes/asp.html.tmLanguage.json",
+				"embeddedLanguages": {
+					"text.html": "html",
+					"source.sql": "sql",
+					"text.xml": "xml",
+					"source.js": "javascript",
+					"source.json": "json",
+					"source.css": "css"
+				}
             }
         ],
         "snippets": [
