@@ -36,34 +36,27 @@
                 "language": "asp",
                 "scopeName": "text.html.asp",
                 "path": "./syntaxes/asp.html.tmLanguage.json",
-                "embeddedLanguages": {
-                    "text.html": "html",
-                    "source.js": "javascript",
-                    "source.css": "css"
-                }
+				"embeddedLanguages": {
+                    "text.html.asp": "asp",
+					"text.html": "html",
+					"source.sql": "sql",
+					"text.xml": "xml",
+					"source.js": "javascript",
+					"source.vbs": "vbscript",
+					"source.json": "json",
+					"source.css": "css"
+				}
             }
         ],
         "snippets": [
             {
                 "language": "asp",
+                "scopeName": "text.html.asp",
                 "path": "./snippets/asp.json"
             }
         ]
     },
-    "activationEvents": [
-        "onLanguage:asp",
-        "onLanguage:html",
-        "onLanguage:javascript"
-    ],
-    "main": "./out/extension",
-    "scripts": {
-        "vscode:prepublish": "tsc -p ./",
-        "compile": "tsc -watch -p ./",
-        "postinstall": "node ./node_modules/vscode/bin/install",
-        "test": "node ./node_modules/vscode/bin/test"
-    },
     "devDependencies": {
-        "typescript": "^1.8.5",
         "vscode": "^0.11.0"
     }
 }

@@ -1,7 +1,10 @@
 # Change Log
-All notable changes to the "asp" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## **0.0.2** released on 29th October 2017.
 
-## [Unreleased]
-- Initial release
+- **Change:** Added snippet converted from [TextMate's ASP bundle](https://github.com/textmate/asp.tmbundle)
+- **Change:** Fixed HTML snippet to work on ASP file, but auto close feature is not fixed yet T_T
+
+## **0.0.1** released on 22nd Febuary 2017
+
+- Initial release.

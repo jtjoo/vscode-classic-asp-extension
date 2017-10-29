@@ -1,59 +1,77 @@
 {
-    ".source.asp" : {
-        "output": {
-            "body": "<%= $0 %>",
-            "name": "<%= %>",
-            "prefix": "="
-        },
-        "for...Next": {
-            "body": "For ${1:var} To ${2:array} {3:' body}\n\t${4:' body}\nNext",
-            "name": "For \u2026 in \u2026 Next",
-            "prefix": "for"
-        },
-        "for...in": {
-            "body": "For ${1:var} in ${2:array}\n\t${3:' body}\nNext",
-            "name": "For \u2026 in \u2026 Next",
-            "prefix": "forin"
-        },
-        "if-else": {
-            "body": "If ${1:condition} Then\n\t${2:' true}\nElse\n\t${3:' false}\nEnd if",
-            "name": "If \u2026 End if",
-            "prefix": "ifelse"
-        },
-        "while loop": {
-            "body": "While ${1:NOT ${2:condition}}\n\t${3:' body}\nWend",
-            "name": "While \u2026 Wend",
-            "prefix": "while"
-        },
-        "Request.Form": {
-            "body": "Request.Form(\"${1:field}\")",
-            "name": "Request.Form(\"\u2026\")",
-            "prefix": "r.f"
-        },
-        "Request.QueryString": {
-            "body": "Request.QueryString(\"${1:name}\")",
-            "name": "Request.QueryString",
-            "prefix": "r.q"
-        },
-        "Request.Write": {
-            "body": "Response.Write ",
-            "name": "Response.Write",
-            "prefix": "r.w"
-        },
-        "Request.Redirect": {
-            "body": "Response.Redirect(${1:to})",
-            "name": "Response.Redirect",
-            "prefix": "r.r"
-        },
-        "Application Variables": {
-            "body": "Application(\"$1\")",
-            "name": "Application(\"\u2026\")",
-            "prefix": "app"
-        },
-        "Session Variables": {
-            "body": "Session(\"${1:whatever}\")",
-            "name": "Session(\"\u2026\")",
-            "prefix": "sess"
-        }
+    "output": {
+        "body": "<%=$0%>",
+        "name": "<%= %>",
+        "prefix": "out"
+    },
+    "for...Next": {
+        "body": "For $1 To $2 ${3:Step}\n\t${4:' body}\nNext",
+        "name": "For \u2026 in \u2026 Next",
+        "prefix": "for"
+    },
+    "for...in": {
+        "body": "For $1 in $2\n\t${3:' body}\nNext",
+        "name": "For \u2026 in \u2026 Next",
+        "prefix": "forin"
+    },
+    "if-else": {
+        "body": "If ${1:condition} Then\n\t${2:' true}\nElse\n\t${3:' false}\nEnd if",
+        "name": "If \u2026 End if",
+        "prefix": "ifelse"
+    },
+    "while": {
+        "body": "While ${1:condition}\n\t${2:' body}\nLoop",
+        "name": "While \u2026 Loop",
+        "prefix": "while"
+    },
+    "do-while loop": {
+        "body": "Do While ${1:condition}\n\t${2:' body}\nLoop",
+        "name": "Do While \u2026 Loop",
+        "prefix": "dowhile"
+    },
+    "do-until loop": {
+        "body": "Do Until ${1:condition}\n\t${2:' body}\nLoop",
+        "name": "Do Until \u2026 Loop",
+        "prefix": "dountil"
+    },
+    "sub routine": {
+        "body": "Sub ${1:name}\n\t${2:' Do Something...}\nEnd Sub",
+        "name": "Sub Routine",
+        "prefix": "sub"
+    },
+    "function": {
+        "body": "${1|Public,Private|} Function ${2:name}\n\t${3:' Do Something...}\nEnd Function",
+        "name": "Function",
+        "prefix": "function"
+    },
+    "Request.Form": {
+        "body": "Request.Form(\"${1:field}\")",
+        "name": "Request.Form(\"\u2026\")",
+        "prefix": "r.f"
+    },
+    "Request.QueryString": {
+        "body": "Request.QueryString(\"${1:name}\")",
+        "name": "Request.QueryString",
+        "prefix": "r.q"
+    },
+    "Request.Write": {
+        "body": "Response.Write ",
+        "name": "Response.Write",
+        "prefix": "r.w"
+    },
+    "Request.Redirect": {
+        "body": "Response.Redirect(${1:to})",
+        "name": "Response.Redirect",
+        "prefix": "r.r"
+    },
+    "Application Variables": {
+        "body": "Application(\"$1\")",
+        "name": "Application(\"\u2026\")",
+        "prefix": "app"
+    },
+    "Session Variables": {
+        "body": "Session(\"${1:whatever}\")",
+        "name": "Session(\"\u2026\")",
+        "prefix": "sess"
     }
 }
