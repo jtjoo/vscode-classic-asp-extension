@@ -1,19 +1,19 @@
 {
-    "name": "classic-asp-html",
+    "name": "classic-asp-extension",
     "scopeName": "text.html.asp",
-    "displayName": "Classic ASP w/HTML",
+    "displayName": "Classic ASP Extension",
     "icon": "images/classic_asp.png",
-    "description": "Classic ASP Language Support from tmBundle (with html support)",
-    "version": "0.0.4",
+    "description": "Classic ASP Language Support and some basical snippets from tmBundle",
+    "version": "0.0.5",
     "publisher": "jtjoo",
     "engines": {
         "vscode": "^1.0.0"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/jtjoo/vscode-classic-asp-html"
+        "url": "https://github.com/jtjoo/vscode-classic-asp-extension"
     },
-    "bugs": "https://github.com/jtjoo/vscode-classic-asp-html/issues",
+    "bugs": "https://github.com/jtjoo/vscode-classic-asp-extension/issues",
     "categories": [
         "Languages",
         "Snippets"
