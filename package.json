@@ -11,9 +11,9 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/jtjoo/vscode-classic-asp-html"
+        "url": "https://github.com/jtjoo/vscode-classic-asp-extension"
     },
-    "bugs": "https://github.com/jtjoo/vscode-classic-asp-html/issues",
+    "bugs": "https://github.com/jtjoo/vscode-classic-asp-extension/issues",
     "categories": [
         "Languages",
         "Snippets"
