@@ -18,14 +18,14 @@
                 {
                     "patterns": [
                         {
-                            "begin": "<(%|=)?",
+                            "begin": "<%=?",
                             "beginCaptures": {
                                 "0": {
                                     "name": "punctuation.section.embedded.begin.asp"
                                 }
                             },
                             "contentName": "source.asp",
-                            "end": "(%)>",
+                            "end": "%>",
                             "endCaptures": {
                                 "0": {
                                     "name": "punctuation.section.embedded.end.asp"

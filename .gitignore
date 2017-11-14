@@ -1,3 +1,4 @@
 *.tm
 out
 node_modules
+images/
