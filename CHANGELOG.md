@@ -1,5 +1,13 @@
 # Change Log
 
+## **0.0.6** release on 14th November 2017.
+
+- **Change:** Fixed issue [#5 0.0.4 Syntax Highlighting Issues](https://github.com/jtjoo/vscode-classic-asp-extension/issues/5)
+
+## **0.0.5** release on 14th November 2017.
+
+- **Change:** Changed extension name and description on [VSCode marketplace](https://marketplace.visualstudio.com/items?itemName=jtjoo.classic-asp-html)
+
 ## **0.0.4** released on 29th October 2017.
 
 - **Change:** Modified Icon
