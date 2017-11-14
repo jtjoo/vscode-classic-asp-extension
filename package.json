@@ -4,7 +4,7 @@
     "displayName": "Classic ASP Syntaxes and Snippets",
     "icon": "images/classic_asp.png",
     "description": "Classic ASP Language Support and Snippets from tmBundle",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "publisher": "jtjoo",
     "engines": {
         "vscode": "^1.0.0"

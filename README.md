@@ -10,11 +10,26 @@ Adds Syntax highlighting and snippets to ASP files in VSCode.
 
 Originally converted from [TextMate's ASP bundle](https://github.com/textmate/asp.tmbundle)
 
-Personally, I have lung cancer and it is last stage so I don't have much time to develop this extension.
+## Contribution
 
-So, *CONTRIBUTIONS* are greatly appreciated. 
+Personally, I have lung cancer and it is last stage.  
+Main cancers in my lung are almost eliminated, but there are some metastatic cancers.  
+Of course I am taking treatments, and my condition is mostly okay but sometimes cancer pain makes me hard.  
+So, there are some reasons makes me difficult to develop this extension.  
+  
+First thing is I don't have much life time to develop this extension.  
+And other thing is I don't have lots of time to study or look over the extension development.  
 
+So, *CONTRIBUTIONS* are very welcome and greatly appreciated.  
 Please fork this repository and open a pull request to add snippets, make grammar tweaks, etc.
+
+## Donation
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GYH3CEDBYFACU)
+
+If you like this extension, you could donate via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GYH3CEDBYFACU). Any amounts are welcome.  
+It will encourage me to make this extension and fighting against my cancer.  
+And it will encourage my family.  
 
 ## Known Issues
 
@@ -27,6 +42,18 @@ Please fork this repository and open a pull request to add snippets, make gramma
 Let me know if you having trouble with using this extension.
 
 ## Release Notes
+
+### 0.0.7
+
+Added Donation button ^^;
+
+### 0.0.6
+
+Fixed [#5 0.0.4 Syntax Highlighting Issues](https://github.com/jtjoo/vscode-classic-asp-extension/issues/5)
+
+### 0.0.5
+
+Changed extension name from `Classic ASP w/HTML` to `Classic ASP Language Support`
 
 ### 0.0.4
 
@@ -45,6 +72,7 @@ Fixed HTML snippet to work on ASP file.
 ### 0.0.1
 
 Wrote new extension fixing HTML problem from [ilich's vscode-classic-asp](https://github.com/ilich/vscode-classic-asp)
+
 
 
 ## This extension created first by
