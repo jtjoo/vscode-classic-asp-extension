@@ -27,9 +27,11 @@ Please fork this repository and open a pull request to add snippets, make gramma
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GYH3CEDBYFACU)
 
-If you like this extension, you could donate via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GYH3CEDBYFACU). Any amounts are welcome.  
-It will encourage me to make this extension and fighting against my cancer.  
-And it will encourage my family.  
+If you like this extension, you could donate via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GYH3CEDBYFACU).  
+If you have PayPal account, [paypal.me/jtjoo](https://www.paypal.me/jtjoo) could be easier.  
+
+It will *encourage* me to make this extension and fighting against my cancer.  
+And it will encourage my family.   
 
 ## Known Issues
 
@@ -45,7 +47,7 @@ Let me know if you having trouble with using this extension.
 
 ### 0.0.7
 
-Added Donation button ^^;
+Added Donation button
 
 ### 0.0.6
 

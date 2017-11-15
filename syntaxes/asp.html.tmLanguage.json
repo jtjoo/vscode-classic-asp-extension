@@ -1,8 +1,6 @@
 {
     "information_for_contributors": [
-		"This file has been converted from https://github.com/textmate/asp.tmbundle",
-		"If you want to provide a fix or improvement, please create a pull request against the original repository.",
-		"Once accepted there, I am happy to receive an update request."
+		"This file has been converted from https://github.com/textmate/asp.tmbundle"
     ],
     "name": "ASP-HTML",
     "scopeName": "text.html.asp",
@@ -18,14 +16,14 @@
                 {
                     "patterns": [
                         {
-                            "begin": "<%=?",
+                            "begin": "\\s*<%=?",
                             "beginCaptures": {
                                 "0": {
                                     "name": "punctuation.section.embedded.begin.asp"
                                 }
                             },
                             "contentName": "source.asp",
-                            "end": "%>",
+                            "end": "[\\s\\w.]*%>",
                             "endCaptures": {
                                 "0": {
                                     "name": "punctuation.section.embedded.end.asp"
@@ -90,7 +88,7 @@
                                 "name": "punctuation.definition.comment.asp"
                             }
                         },
-                        "end": "\\n",
+                        "end": "\\n|(?=%>)",
                         "name": "comment.line.apostrophe.asp"
                     }]
                 },
@@ -109,7 +107,7 @@
                                 "name": "punctuation.definition.comment.asp"
                             }
                         },
-                        "end": "\\n",
+                        "end": "\\n|(?=%>)",
                         "name": "comment.line.rem.asp"
                     }]
                 },
