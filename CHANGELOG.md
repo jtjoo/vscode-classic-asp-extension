@@ -3,6 +3,8 @@
 ## **0.0.7** release on 14th November 2017.
 
 - **Added** Donation button
+- **Change** Syntax Highlight bug about comment and newline fixed.
+- **Added** Some useful snippets related with Response Object and ADO added.
 
 ## **0.0.6** release on 14th November 2017.
 

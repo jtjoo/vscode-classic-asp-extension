@@ -39,11 +39,42 @@ And it will encourage my family.
 
 2. [Spell Right](https://github.com/bartosz-antosik/vscode-spellright) Extension doesn't work on this extension. [See Issue](https://github.com/jtjoo/vscode-classic-asp-html/issues/4)
 
-3. It doesn't support `<script language="vbscript" runat="server">` yet
+3. It doesn't support `<script language=vbscript" runat="server` yet
 
 Let me know if you having trouble with using this extension.
 
 ## Release Notes
+
+### 0.0.8
+
+You can use many useful snippets!
+
+| Command |  |
+| --- |---|
+|	`out`	|	<%= %>	|
+|	`"for`	|	For i = `Value` To `Value` in ... Next	|
+|	`forin`	|	For `item` in `object` ... Next	|
+|	`if`	|	If `Condition` Then ... End if	|
+|	`while`	|	While `Condition` ... Loop	|
+|	`dowhile`	|	Do While `Condition` ... Loop	|
+|	`dountil`	|	Do Until `Condition` ... Loop	|
+|	`sel`	|	Select Case `Variable`	... End Select |
+|	`case`	|	Case `Value`:	|
+|	`sub`	|	Sub `Subname` ... End Sub	|
+|	`fun`	|	Function `Name` ... End Function	|
+|	`inc`	|	\<\!-- #include `file or virtual`="`filePath`" --\>	|
+|	`req`	|	Request	|
+|	`reqf`	|	Request.Form(\"...\")	|
+|	`qs`	|	Request.QueryString(\"...\")	|
+|	`res`	|	Response	|
+|	`wr`	|	Response.Write(\"...\")	|
+|	`ri`	|	Response.Redirect(\"`URL`\")	|
+|	`cook`	|	Response.Cookie(\"...\")	|
+|	`app`	|	Application(\"...\")	|
+|	`sess`	|	Session(\"...\")	|
+|	`obj`	|	Server.CreateObject	|
+|	`dbcon`	|	Set DB Connection and Close	|
+|	`rs`	|	Set Recordset and Open Query and Close	|
 
 ### 0.0.7
 
