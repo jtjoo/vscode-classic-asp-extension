@@ -1,6 +1,10 @@
 # Change Log
 
-## **0.0.7** release on 14th November 2017.
+## **0.0.8** release on 16th November 2017.
+
+- **added** Snippet Command Manual
+
+## **0.0.7** release on 16th November 2017.
 
 - **Added** Donation button
 - **Change** Syntax Highlight bug about comment and newline fixed.

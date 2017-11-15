@@ -80,10 +80,11 @@ Let me know if you having trouble with using this extension.
 
 ### 0.0.8
 
-Added useful snippets more than tmBundle!
+Added Snippet Command Manual
 
 ### 0.0.7
 
+Added useful snippets more than tmBundle!
 Added Donation button
 
 ### 0.0.6
