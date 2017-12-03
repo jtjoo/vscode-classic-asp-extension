@@ -1,8 +1,13 @@
 # Change Log
 
+## **0.0.9** release on 4th December 2017.
+
+- **Added** `Class` Snippet
+- **Change** Fixed syntax color problem with `End Class` 
+
 ## **0.0.8** release on 16th November 2017.
 
-- **added** Snippet Command Manual
+- **Added** Snippet Command Manual
 
 ## **0.0.7** release on 16th November 2017.
 

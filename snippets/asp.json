@@ -118,5 +118,10 @@
         "body": "Set ${1:Rs} = Server.CreateObject(\"ADODB.RecordSet\")\n${2:SQL} = \"${3:SQL_QUERY}\"\n${1}.Open ${2}, ${4:Db}\n${5}\n${1}.Close\n${6}",
         "name": "Set DB Connection\"\u2026\"",
         "prefix": "rs"
+    },
+    "Class": {
+        "body": "Class ${1:ClassName}\n\n\t${2:' Add some properties or methods!}\n\nEnd Class\n${3}",
+        "name": "Set Class",
+        "prefix": "class"
     }
 }
