@@ -1,3 +1,6 @@
+### Version 0.1.0
+- change qr code img url
+
 # Change Log
 
 ## **0.0.9** release on 4th December 2017.

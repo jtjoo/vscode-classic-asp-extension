@@ -23,7 +23,7 @@
                                 }
                             },
                             "contentName": "source.asp",
-                            "end": "[\\s\\w.]*%>",
+                            "end": "%>",
                             "endCaptures": {
                                 "0": {
                                     "name": "punctuation.section.embedded.end.asp"
