@@ -1,7 +1,8 @@
-### Version 0.1.0
-- change qr code img url
-
 # Change Log
+
+## **0.1.0** release on 21st January 2018.
+
+- **Fixed** [#6 Syntax Highlighting Issue](https://github.com/jtjoo/vscode-classic-asp-extension/issues/6)
 
 ## **0.0.9** release on 4th December 2017.
 
