@@ -1,5 +1,9 @@
 # Change Log
 
+## **0.1.1** release on 28th March 2019.
+
+- Fix publishing problem and republish version 0.1.0 as 0.1.1
+
 ## **0.1.0** release on 21st January 2018.
 
 - **Fixed** [#6 Syntax Highlighting Issue](https://github.com/jtjoo/vscode-classic-asp-extension/issues/6)
