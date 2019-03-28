@@ -79,6 +79,10 @@ Let me know if you having trouble with using this extension.
 
 ## Release Notes
 
+### 0.1.1
+
+Added syntax support `End With`
+
 ### 0.0.9
 
 Added `Class` snippet
