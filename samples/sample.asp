@@ -166,4 +166,9 @@ Class CMD5
 	End Function
 
 End Class
+
+'End With support test
+With aElement
+End with
+
 %>

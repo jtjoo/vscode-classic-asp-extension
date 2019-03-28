@@ -15,28 +15,22 @@ Originally converted from [TextMate's ASP bundle](https://github.com/textmate/as
 
 Personally, I have lung cancer and it is last stage.  
 Main cancers in my lung are almost eliminated, but there are some metastatic cancers.  
-Of course I am taking treatments, and my condition is mostly okay but sometimes cancer pain makes me hard.  
-So, there are some reasons makes me difficult to develop this extension.  
-  
-First thing is I don't have much life time to develop this extension.  
-And other thing is I don't have lots of time to study or look over the extension development. 
+On July 2018, my brain cancer relapsed 2 times, it have been eliminated by radiation treatment. These days I am fine, for now.
+These days I am resting and doing my hobbies in house.
+I've been lazy for this development, but I will respond your feedbacks. Thank you for your all support!
+Your support and contribution is always welcome! I will work for maintaining this tools for all of you.
 
-If you like this extension, you could donate via 2 ways.
 
+You can support by donate me via this.
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GYH3CEDBYFACU)
 
 You can donate by [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GYH3CEDBYFACU). If you have PayPal account, [paypal.me/jtjoo](https://www.paypal.me/jtjoo) could be easier.  
-
-Or, you can donate bitcoin via [BlockChain.Info](https://blockchain.info/payment_request?address=1H9LJVc7YT33YNjnVBDRLnoYfJEr9xtWKp) or Scan QRcode below:
-
-<img src="https://s3.ap-northeast-2.amazonaws.com/jtjoo/public/blkchQR.png">
-
-It will *encourage* me to make this extension and fighting against my cancer.  
-And it will encourage my family.   
  
 And also, <span style="color:red;">**CONTRIBUTIONS**</span> are very welcome and greatly appreciated.  
 Please fork this repository and open a pull request to add snippets, make grammar tweaks, etc.
+
+<b>I am not so smart to develop this alone, so cooperation is always welcome!</b>
 
 ## Snippets
 
