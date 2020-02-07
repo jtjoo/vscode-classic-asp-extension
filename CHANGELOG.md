@@ -1,5 +1,9 @@
 # Change Log
 
+## **0.1.2** release on 7th Feburary 2020.
+
+- **Fixed** Due to [#9 Issue](https://github.com/jtjoo/vscode-classic-asp-extension/issues/9), added comment/uncomment support by [thismat](https://github.com/thismat). Thank you!
+
 ## **0.1.1** release on 28th March 2019.
 
 - Fix publishing problem and republish version 0.1.0 as 0.1.1

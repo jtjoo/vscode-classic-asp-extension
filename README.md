@@ -79,6 +79,10 @@ Let me know if you having trouble with using this extension.
 
 ## Release Notes
 
+### 0.1.2
+
+- Added comment/uncomment support by [thismat](https://github.com/thismat). Thank you!
+
 ### 0.1.1
 
 Added syntax support `End With`
