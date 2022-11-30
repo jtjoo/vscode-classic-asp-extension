@@ -13,15 +13,12 @@ Originally converted from [TextMate's ASP bundle](https://github.com/textmate/as
 
 ## Encouragement by *Donation & Contribution*
 
-Personally, I have lung cancer and it is last stage.  
-Main cancers in my lung are almost eliminated, but there are some metastatic cancers.  
-On July 2018, my brain cancer relapsed 2 times, it have been eliminated by radiation treatment. These days I am fine, for now.
-These days I am resting and doing my hobbies in house.
+Personally, I survived from last stage of lung cancer and I am starting second chance of my life.
+On July 2018, my brain cancer relapsed 2 times, it have been eliminated by radiation treatment. These days I am fine, I survived.
 I've been lazy for this development, but I will respond your feedbacks. Thank you for your all support!
 Your support and contribution is always welcome! I will work for maintaining this tools for all of you.
 
-
-You can support by donate me via this.
+You can support by donate me via:
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GYH3CEDBYFACU)
 
@@ -78,6 +75,12 @@ And I am updating those!
 Let me know if you having trouble with using this extension.
 
 ## Release Notes
+
+### 0.1.3
+
+- Added pairs like (), "" Thank you [abdelilah-tezrali](https://github.com/abdelilah-tezrali/vscode-classic-asp-extension/tree/patch-2) for contribution!
+- I am so sorry I haven't given attention to this project for years, I was so busy to dealing with my life and I even forgot how to use git and all coding stuffs lol. Well I checked pull-request and updated! Thank you for using this extension :\)
+- Oh, and I debut as musician last year, if you interested check out my [linktree](https://linktr.ee/jtjoo)
 
 ### 0.1.2
 
