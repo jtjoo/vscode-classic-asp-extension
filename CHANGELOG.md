@@ -1,5 +1,9 @@
 # Change Log
 
+## **0.1.3** release on 30th November 2022.
+
+- **Added** Added pairs like (), "" Thank you [abdelilah-tezrali](https://github.com/abdelilah-tezrali/vscode-classic-asp-extension/tree/patch-2) for contribution!
+
 ## **0.1.2** release on 7th Feburary 2020.
 
 - **Fixed** Due to [#9 Issue](https://github.com/jtjoo/vscode-classic-asp-extension/issues/9), added comment/uncomment support by [thismat](https://github.com/thismat). Thank you!
