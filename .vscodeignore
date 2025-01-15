@@ -1,0 +1,7 @@
+# Ignore
+**
+
+# Keep
+!LICENSE
+!images/
+!out/**/*.js
