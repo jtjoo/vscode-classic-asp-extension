@@ -4,4 +4,5 @@
 # Keep
 !LICENSE
 !images/
+!samples/
 !out/**/*.js
