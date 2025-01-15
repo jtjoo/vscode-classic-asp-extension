@@ -1,5 +1,11 @@
 # Change Log
 
+## **0.1.4** release on 15th January 2025.
+
+- **Added** Script tag with runat property. Now you can use <script language='vb/javascript' runat='server'> tag!
+
+- **Fixed** Auto Close [#3 Issue](https://github.com/jtjoo/vscode-classic-asp-extension/issues/3) Thanks to Copilot AI! 
+
 ## **0.1.3** release on 30th November 2022.
 
 - **Added** Added pairs like (), "" Thank you [abdelilah-tezrali](https://github.com/abdelilah-tezrali/vscode-classic-asp-extension/tree/patch-2) for contribution!
