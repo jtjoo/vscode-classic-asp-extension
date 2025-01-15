@@ -36,7 +36,7 @@
 		]
 	],
 	"embeddedLanguages": {
-		"script[language='vbscript'][runat='server']": "vbscript",
-		"script[language='javascript'][runat='server']": "javascript" // Add support for JavaScript
+		"script[language='vbscript'][runat='server']": "vbscript",		
+		"script[language='javascript'][runat='server']": "javascript"
 	}
 }
