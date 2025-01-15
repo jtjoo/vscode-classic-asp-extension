@@ -18,6 +18,7 @@
         "Languages",
         "Snippets"
     ],
+    "license": "MIT",
     "contributes": {
         "languages": [
             {
