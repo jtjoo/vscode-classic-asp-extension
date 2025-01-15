@@ -2,7 +2,7 @@
     "name": "classic-asp-html",
     "scopeName": "text.html.asp",
     "displayName": "Classic ASP Syntaxes and Snippets",
-    "icon": "classic_asp.png",
+    "icon": "./images/classic_asp.png",
     "description": "Classic ASP Language Support and Snippets from tmBundle",
     "version": "0.1.4",
     "publisher": "jtjoo",
