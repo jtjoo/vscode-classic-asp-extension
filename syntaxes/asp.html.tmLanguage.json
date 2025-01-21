@@ -11,7 +11,7 @@
     "foldingStartMarker": "(?i)^\\s*(Public|Private)?\\s*(Class|Function|Sub|Property)\\s*([a-zA-Z_]\\w*)\\s*(\\(.*\\)\\s*)?$",
     "foldingStopMarker": "(?i)^\\s*End (Class|Function|Sub|Property)\\s*$",
     "injections" : {
-        "text.html.asp" : {
+        "L:text.html.asp" : {
             "patterns" : [
                 {
                     "patterns": [
@@ -38,6 +38,68 @@
                                     "include": "#sources_asp"
                                 }
                             ]
+                        }
+                    ]
+                },
+                {
+                    "begin": "(<)\\s*((?i:script))\\s+((?i:language|))(=|)((?i:('|\"|)vbscript('|\"|)|))\\s*((?i:runat))(=)((?i:('|\"|)server('|\"|)))\\s*(>)",
+                    "beginCaptures": {
+                        "1": {
+                            "name":"punctuation.definition.tag"
+                        },
+                        "2": {
+                            "name": "entity.name.tag"
+                        },
+                        "3": {
+                            "name": "entity.other.attribute-name.language"
+                        },
+                        "4": {
+                            "name": "punctuation.definition.tag"
+                        },
+                        "5": {
+                            "name": "support.class.asp.vbscript"
+                        },
+                        "6": {
+                            "name":"punctuation.definition.tag"
+                        },
+                        "7": {
+                            "name": "punctuation.definition.tag"
+                        },
+                        "8": {
+                            "name": "entity.other.attribute-name.runat"
+                        },
+                        "9": {
+                            "name": "punctuation.definition.tag"
+                        },
+                        "10": {
+                            "name": "support.class.asp.server"
+                        },
+                        "11": {
+                            "name": "punctuation.definition.tag"
+                        },
+                        "12": {
+                            "name": "punctuation.definition.tag"
+                        },
+                        "13": {
+                            "name": "punctuation.definition.tag"
+                        }
+                    },
+                    "end": "(</)\\s*((?i:script))\\s*(>)",
+                    "endCaptures": {
+                        "1": {
+                            "name": "punctuation.definition.tag"
+                        },
+                        "2":{
+                            "name": "entity.name.tag"   
+                        },
+                        "3": {
+                            "name": "punctuation.definition.tag"
+                        }
+                    },
+                    "content.name": "source.asp",
+                    "patterns": [
+                        {
+                            "include": "#sources_asp"
                         }
                     ]
                 }
